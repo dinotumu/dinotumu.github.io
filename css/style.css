@@ -1,0 +1,27 @@
+/*Custom styles for footer*/
+#footer-main{
+	background:#406c96;
+	color:#fff;
+	border-top:#333 2px solid;
+	padding:10px 0;
+}
+
+#footer-main h4,#footer-main a{
+	color:#fff;
+}
+
+/*fix for responsive footer (fixed in desktop and sticky in mobile) and font size*/
+@media (max-width: 768px) {
+  	.navbar-fixed-bottom {
+  		position:static;
+  	}
+  	#header{
+  		font-size: 20px;
+  	}
+}
+
+.s
+{
+    color:white;
+    display:none;
+}
