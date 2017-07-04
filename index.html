@@ -8,18 +8,26 @@
         <meta name="description" content="Portfolio website of Sai Dinesh Tumu">
         <meta name="author" content="Sai Dinesh Tumu">    
         
-        
+        <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Ubuntu">
         <link rel='stylesheet' type='text/css' href='https://fonts.googleapis.com/css?family=Roboto:400,500,400italic,300italic,300,500italic,700,700italic,900,900italic'>
         <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"/>
         <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/icon?family=Material+Icons"/>
         <link rel="stylesheet" type="text/css" href="./css/material.min.css"/>
         <link rel="stylesheet" type="text/css" href="./css/ripples.min.css"/>
-        <link rel="stylesheet" type="text/css" href="./css/site.css"/>
+        <!--<link rel="stylesheet" type="text/css" href="./css/site.css"/>-->
+        <style>
+           body{
+            position: relative;
+            background-image: url(./img/background.png);
+            background-repeat: repeat;
+            background-position: bottom center;
+            }
+        </style>
 
         <link rel="shortcut icon" href="favicon.ico">  
     </head>
     <body>
-        <header style=" margin:0px;" class="navbar navbar-default">
+        <header style="background-color:black;margin:0px;font-family: 'Ubuntu', sans-serif;" class="navbar navbar-default">
             <div class="container-fluid">
                 <div class="navbar-header">
                     <button type="button" data-toggle="collapse" data-target=".navbar-collapse" aria-expanded="false" class="navbar-toggle collapsed">
@@ -30,10 +38,10 @@
                     </button>
                     <a href="#" class="navbar-brand">./home</a>
                 </div>
-                <div class="navbar-collapse collapse">
+                <div class="navbar-collapse collapse" >
                     <div class="navbar-right">
                         <ul class="nav navbar-nav">
-                            <li><a href="#"><span class="fa fa-hourglass-half"></span> ~$ cd blog/latest</a></li>
+                            <li><a href="#"><span class="fa fa-hourglass-half"></span> ~$ cd blog</a></li>
                             <li><a href="#"><span class="fa fa-hourglass-half"></span> ~$ mail -s"You're Hired!!"</a></li>
                             <li><a href="#"><span class="fa fa-hourglass-half"></span> ~$ wget "resume"</a></li>
                         </ul>
@@ -41,11 +49,11 @@
                 </div>
             </div>
         </header>
-
+        
         <div id="wrapper" class="container">
             <div class="row">
                 <div id="side-wrapper" class="col-md-4">
-
+                    
                 </div>
                 <div id="main-wrapper" class="col-md-8">
 
@@ -53,8 +61,26 @@
             </div>
         </div>
         
-        <footer>
-
+        <footer style="background-color:black;margin:0px;font-family: 'Ubuntu', sans-serif;" class="navbar navbar-default">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <button type="button" data-toggle="collapse" data-target=".navbar-collapse" aria-expanded="false" class="navbar-toggle collapsed">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                </div>
+                <div class="navbar-collapse collapse" >
+                    <div class="navbar-right">
+                        <ul class="nav navbar-nav">
+                            <li><a href="#"><span class="fa fa-hourglass-half"></span> ~$ cd blog</a></li>
+                            <li><a href="#"><span class="fa fa-hourglass-half"></span> ~$ mail -s"You're Hired!!"</a></li>
+                            <li><a href="#"><span class="fa fa-hourglass-half"></span> ~$ wget "resume"</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
         </footer>
 
         <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
