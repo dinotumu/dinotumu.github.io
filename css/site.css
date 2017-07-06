@@ -50,15 +50,19 @@ footer {
      font-size: 25px;
   }
   .title{
-    font-size: 20px;
+    font-size: 23px;
     font-weight: 700;
-    margin:0px;
+    margin: 0px;
   }
   #links{
     font-size: 15px;
   }
   .jumbotron .year{
-    margin:0px;
+    margin: 0px;
     font-size: 17px;
+  }
+  .short_desc{
+    font-size: 20px;
+    margin-top: 5px;
   }
 }
