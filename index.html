@@ -54,7 +54,7 @@
                             <center>
                                 <h1>SAI DINESH TUMU</h1>
                                 <h2 style="font-weight: 300;">Web Application Developer(Intern) at <a href="#">Being Zero</a></h2>
-                                <p><a href="#">Github</a> &#9642; <a href="#">LinkedIn</a> &#9642; <a href="#">Twitter</a> &#9642; <a href="#">Medium</a> &#9642; <a href="#">Email</a></p>
+                                <p><a href="https://github.com/dinoRkz">Github</a> &#9642; <a href="https://www.linkedin.com/in/dinorkz/">LinkedIn</a> &#9642; <a href="https://twitter.com/dinoRkz">Twitter</a> &#9642; <a href="https://medium.com/@dinoRkz">Medium</a> &#9642; <a href="mailto:dinoRkz@outlook.com">Email</a></p>
                                 <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).</p>
                             </center>
                         </div>
@@ -68,7 +68,20 @@
                         </div>
                         <div class="col-md-9">
                             <h2>INTERN, BEING ZERO PVT. LTD., HYDERABAD, SEPT '15 – PRESENT</h2>
-                            <h3>currently designing api for an online web application mentorpick.<a>more</a></h3>
+                            <h3>currently designing api for an online web application mentorpick.</h3>
+                            <div class='toggle_parent'>
+                                <div class='toggleHolder'>
+                                    <span class='toggler'>See More</span>
+                                    <span class='toggler' style='display:none;'>See Less</span>
+                                </div>
+                                <div class='toggled_content' style='display:none;'>
+                                    My Content
+                                    My Content
+                                    My Content
+                                    My Content
+                                    My Content
+                                </div>
+                            </div>
                             <br>
                             <h2>SUMMER INTERN, TRANSMISSION CORP. OF TELANGANA LTD., HYDERABAD, JUN '15 – JUL '15</h2>
                             <h3>designed architecture and implemented a demo for analysis of power consumed.<a>more</a></h3>
@@ -185,6 +198,18 @@
         <script type="text/javascript">
             $(function () {
                 $.material.init();
+                   
+            });
+        </script>
+        <script type="text/javascript">
+            $(document).ready(function(){
+                
+                $('.toggler').on('click',function(){
+                $(this).parent().children().toggle();  //swaps the display:none between the two spans
+                $(this).parent().parent().find('.toggled_content').slideToggle();  //swap the display of the main content with slide action
+
+                });
+                
             });
         </script>
     </body>
