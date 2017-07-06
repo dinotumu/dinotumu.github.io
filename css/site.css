@@ -19,38 +19,46 @@ footer {
   	color: #fff;
   	padding: 10px 0px;
 }
-/*
+
 @media (max-width: 360px)
 {
 
 }
 
-@media (min-width: 992px)
+@media (min-width: 361px) and (max-width: 766px)
 {
 
 }
 
-@media (max-width: 767px) 
+@media (min-width: 767px) and (max-width: 992px)
 {
 
 }
 
-@media (min-width: 767px) and (max-width: 992px )
-{
-
-}
-
-@media (min-width: 992px) and (max-width: 1200px)  
+@media (min-width: 993px) and (max-width: 1200px)  
 {
 
 }
 
 @media (min-width: 1200px)
 {
-
+  #name{
+    font-size: 50px;
+  }
+  #headline{
+     font-weight: 300;
+     font-size: 25px;
+  }
+  .title{
+    font-size: 25px;
+    font-weight: 700;
+    margin:0px;
+  }
+  #links{
+    font-size: 15px;
+  }
+  .jumbotron .year{
+    margin:0px;
+    font-size: 17px;
+  }
 }
-
-@media (max-width: 360px)
-{
-
-}*/
