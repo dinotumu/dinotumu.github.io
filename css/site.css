@@ -20,6 +20,17 @@ footer {
   	padding: 10px 0px;
 }
 
+.more_horiz::after {
+    font-family: 'Material Icons';
+    content: "more_horiz";
+}
+
+a:hover {
+  text-decoration: none;
+  cursor: hand;
+  cursor: pointer;
+}
+
 @media (max-width: 360px)
 {
 
@@ -65,17 +76,4 @@ footer {
     font-size: 20px;
     margin-top: 5px;
   }
-}
-
-.more_horiz::after {
-    font-family: 'Material Icons';
-    content: "more_horiz";
-    -webkit-font-feature-settings: 'liga';
-    -moz-font-feature-settings: 'liga';
-}
-
-a:hover {
-  text-decoration: none;
-  cursor: hand;
-  cursor: pointer;
 }
