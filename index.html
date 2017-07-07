@@ -7,6 +7,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="description" content="Portfolio site of Sai Dinesh Tumu">
         <meta name="author" content="Sai Dinesh Tumu">    
+        <meta name="robots" content="noindex, nofollow">
 	    <meta name="keywords" content="Web Application Developer,Programming,Algorithms,Data Structures">
 
 	    <!--<link rel="sitemap" type="application/xml" title="Sitemap" href="./sitemap.xml">-->
@@ -40,14 +41,18 @@
         <link rel="stylesheet" type="text/css" href="./css/material.min.css">
         <link rel="stylesheet" type="text/css" href="./css/ripples.min.css">
 
+        <!--[if lt IE 9]>
+        <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+        <![endif]-->
+
         <!-- Google Tag Manager -->
-        <!--<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','GTM-WTGDC4S');</script>-->
+        <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','GTM-WTGDC4S');</script>
         <!-- End Google Tag Manager -->
     </head>
 
     <body>
         <!-- Google Tag Manager (noscript) -->
-        <!--<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WTGDC4S" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>-->
+        <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WTGDC4S" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         <!-- End Google Tag Manager (noscript) -->
         <header id="nav" class="navbar navbar-default">
             <div class="container-fluid">
@@ -63,9 +68,9 @@
                 <div class="navbar-collapse collapse" >
                     <div class="navbar-right">
                         <ul class="nav navbar-nav">
-                            <li><a href="#"><span class="fa fa-hourglass-half"></span> ~$ cd blog</a></li>
-                            <li><a href="#"><span class="fa fa-hourglass-half"></span> ~$ mail -s"You're Hired!!"</a></li>
-                            <li><a href="#"><span class="fa fa-hourglass-half"></span> ~$ wget "resume"</a></li>
+                            <li><a href="#">~$ cd blog</a></li>
+                            <li><a href="#">~$ mail -s"You're Hired!!"</a></li>
+                            <li><a href="#">~$ wget "resume"</a></li>
                         </ul>
                     </div>
                 </div>
@@ -74,16 +79,30 @@
         
         <div class="container">
             <div id="wrapper" class="jumbotron">
-                <div id="section-1">
+                <div id="section-1" itemscope itemtype="http://schema.org/Person">
                     <div class="row">
                         <div class="col-md-4">
-                            <img src="#">
+                            <img src="#" itemprop="image" alt="Sai Dinesh Tumu">
                         </div>
                         <div class="col-md-8">
                             <center>
-                                <h1 id="name">SAI DINESH TUMU</h1>
-                                <h2 id="headline">Web Application Developer(Intern) at <a href="#">Being Zero</a></h2>
-                                <p id="links"><a href="https://github.com/dinoRkz">Github</a> &#9642; <a href="https://www.linkedin.com/in/dinorkz/">LinkedIn</a> &#9642; <a href="https://twitter.com/dinoRkz">Twitter</a> &#9642; <a href="https://medium.com/@dinoRkz">Medium</a> &#9642; <a href="mailto:dinoRkz@outlook.com">Email</a></p>
+                                <h1 id="name" itemprop="name">SAI DINESH TUMU</h1>
+                                <h2 id="headline" itemprop="jobTitle">Web Application Developer(Intern) at <a href="http://beingzero.in/">Being Zero</a></h2>
+                                <p id="links">
+                                    <a rel="me" itemprop="url" href="https://github.com/dinoRkz">Github</a> &#9642; 
+                                    <a rel="me" itemprop="url" href="https://www.linkedin.com/in/dinorkz/">LinkedIn</a> &#9642; 
+                                    <a rel="me" itemprop="url" href="https://twitter.com/dinoRkz">Twitter</a> &#9642; 
+                                    <a rel="me" itemprop="url" href="https://medium.com/@dinoRkz">Medium</a> &#9642; 
+                                    <a rel="me" itemprop="email" href="mailto:dinoRkz@outlook.com">Email</a>
+                                    <a style="display:none;visibility:hidden;" rel="author" itemprop="url" href="https://plus.google.com/113249638095947151782">Google+</a>
+                                    <a style="display:none;visibility:hidden;" rel="me" itemprop="telephone" href="tel:+919816959223">Phone</a>
+                                    <a style="display:none;visibility:hidden;" rel="me" itemprop="url" href="https://facebook.com/dinoRkz">Facebook</a>
+                                    <a style="display:none;visibility:hidden;" rel="me" itemprop="url" href="https://www.youtube.com/channel/UCM93dHqs4FVjcZ4LmaLUb0A">Youtube</a>
+                                    <a style="display:none;visibility:hidden;" rel="me" itemprop="url" href="https://www.hackerearth.com/@dinoRkz">hackerearth</a>
+                                    <a style="display:none;visibility:hidden;" rel="me" itemprop="url" href="https://www.hackerrank.com/dinoRkz">hackerrank</a>
+                                    <a style="display:none;visibility:hidden;" rel="me" itemprop="url" href="https://www.quora.com/profile/Sai-Dinesh-Tumu">Quora</a>
+                                    
+                                </p>
                                 <!--<p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).</p>-->
                             </center>
                         </div>
