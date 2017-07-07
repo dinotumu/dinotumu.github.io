@@ -66,3 +66,16 @@ footer {
     margin-top: 5px;
   }
 }
+
+.more_horiz::after {
+    font-family: 'Material Icons';
+    content: "more_horiz";
+    -webkit-font-feature-settings: 'liga';
+    -moz-font-feature-settings: 'liga';
+}
+
+a:hover {
+  text-decoration: none;
+  cursor: hand;
+  cursor: pointer;
+}
