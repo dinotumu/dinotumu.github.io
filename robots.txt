@@ -2,5 +2,3 @@ User-agent: *
 Disallow: /css/
 Disallow: /img/background.png
 Disallow: /js/
-Disallow: /timeline/
-Disallow: /blog/
