@@ -58,6 +58,31 @@ footer a:hover {
   display: none;
 }
 
+footer,
+.center-text {
+  text-align: center;
+}
+
+.center {
+    margin:auto;
+}
+
+.image-container {
+  display: flex;
+  justify-content: center;
+}
+
+@media print{
+  body {
+    background-color:#FFFFFF; 
+    background-image:none; 
+    color:#000000 
+  }
+  .container {
+    width:100%;
+  }
+}
+
 @media (max-width: 360px)
 {
 
