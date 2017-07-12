@@ -2,13 +2,14 @@ body {
    font-family: 'Open Sans', sans-serif;
 }
 
-#nav, footer {
+#nav, 
+footer {
   background-color:#455a64;
   font-family: 'Ubuntu', sans-serif;
 }
 
 footer {
-  	color: #fff;
+  	color: #ffffff;
   	padding: 10px 0px;
 }
 
@@ -63,8 +64,7 @@ footer,
   justify-content: center;
 }
 
-
-/* Tested for Galaxy S5, Xolo Era 1x */
+/* (Portrait) Developed and Tested for Galaxy S5, Xolo Era 1x, iPhone 5 */
 @media (max-width: 360px) {
   .navbar-inverse .navbar-toggle:focus, 
   .navbar-inverse .navbar-toggle:hover {
@@ -128,12 +128,20 @@ footer,
   }
 }
 
+/* (Portrait) Tested for Nexus 5X, Nexus 6P, iPhone 6, iPhone 6Plus */
 @media (min-width: 361px) and (max-width: 420px)
 {
 
 }
 
-@media (min-width: 767px) and (max-width: 992px)
+/* (Landscape) Tested for Galaxy S5, Xolo Era 1x, iPhone 5 */
+@media (min-width: 421px) and (max-width: 767px)
+{
+
+}
+
+/* Tested for iPad, iPad Pro  */
+@media (min-width: 768px) and (max-width: 992px)
 {
 
 }
@@ -143,6 +151,7 @@ footer,
 
 }
 
+/* Developed and Tested for Laptops, Desktops  */
 @media (min-width: 1200px)
 {
   #name{
@@ -152,10 +161,9 @@ footer,
      font-weight: 300;
      font-size: 25px;
   }
-#wrapper {
-  margin:100px 0px;
-
-}
+  #wrapper {
+    margin:100px 0px;
+  }
   .title{
     font-size: 23px;
     font-weight: 700;
@@ -187,7 +195,7 @@ footer,
     margin: 0px;
   }
   .container .jumbotron {
-  border-radius: 0px;
-  background-color: #fafafa;
-}
+    border-radius: 0px;
+    background-color: #fafafa;
+  }
 }
