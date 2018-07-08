@@ -5,6 +5,12 @@
     "address": "",
     "affiliation": "",
     "alumniOf": [
+                    {
+                    	"@type":"EducationalOrganization",
+                        "name":"National College of Ireland",
+                        "url":"http://www.ncirl.ie/",
+                        "address":"P.O. Waknaghat, Teh Kandaghat, Solan, Himachal Pradesh, India 173234"
+                    },
     				{
                     	"@type":"EducationalOrganization",
                         "name":"Jaypee University of Information Technology",
@@ -60,7 +66,7 @@
     "honorificPrefix": "Mr",
     "honorificSuffix": "B.Tech (CSE)",
     "isicV4": "", 
-    "jobTitle": "Web Developer (Intern)", 
+    "jobTitle": "Partner (Barista) at Starbucks", 
     "knows": [{"name":"Abhinav Kumar","url": "http://abhnv.com/"},{"name":"Satyam Kapoor","url": "https://satyamkapoor.com/"}], 
     "makesOffer": "", 
     "memberOf": [{"@type":"Organization","name":"IEEE","url":"https://www.ieee.org/index.html"}], 
@@ -76,11 +82,11 @@
     "sponsor": "",  
     "spouse": "",  
     "taxID": "",
-    "telephone": "+91-9816-959-223",
+    "telephone": "+353(089)4207706",
     "vatID": "",
     "weight": "",
-    "workLocation": {"@type":"Place","address":"Hyderabad"},
-    "worksFor": [{"@type":"Organization","name":"Being Zero","url":"http://beingzero.in/"}],
+    "workLocation": {"@type":"Place","address":"Block B, Eastwall Road, Dublin 3"},
+    "worksFor": [{"@type":"Organization","name":"Starbucks","url":"https://starbucks.ie/"}],
     "additionalType": "",
     "alternateName": "dino",
     "description": "",
@@ -91,5 +97,5 @@
     "name": "Sai Dinesh Tumu",
     "potentialAction": "",
     "sameAs": ["https://plus.google.com/113249638095947151782","https://twitter.com/dinoRkz","https://facebook.com/dinoRkz","https://youtube.com/channel/UCM93dHqs4FVjcZ4LmaLUb0A","https://hackerearth.com/@dinoRkz","https://hackerrank.com/dinoRkz","https://quora.com/profile/Sai-Dinesh-Tumu","https://instagram.com/dinoRkz"],
-    "url": "https://imdino.xyz"
+    "url": "https://madebydino.com"
 }
